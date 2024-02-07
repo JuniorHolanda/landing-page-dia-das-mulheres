@@ -19,6 +19,7 @@
     align-items: end;
     text-align: end;
     grid-column: 1/2;
+    gap: 2rem;
 }
 
 .titulo h1 {
@@ -30,7 +31,7 @@
 }
 
 .titulo h2 {
-    color: var(--corEscura);
+    color: rgb(38, 82, 121);
     font-family: var(--fontSecundaria);
 
 }
@@ -69,4 +70,59 @@
     gap: 30px;
     font-size: 2rem;
     color: var(--corPrincipal);
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .chamada {
+        display: flex;
+        flex-direction: column; 
+        padding: 2rem 0rem;
+        height: auto;
+    }
+
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-column: 1/2;
+    }
+    
+    .titulo h1 {
+        display: flex;
+        font-family: var(--fontDestaque);
+        color: var(--corPrincipal);
+        font-size: 7rem;
+        line-height: 0.8;
+    }
+
+    .imagem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    .imagemDeFundo{
+        width: 100vw;
+        height: auto;
+    }
+
+    .imagemDasMaos{
+        position: absolute;
+        width: 16rem;
+        bottom: 0;
+    }
+
+    .midiasSociais {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        font-size: 2rem;
+        color: var(--corPrincipal);
+    }
+
 }

@@ -1,3 +1,8 @@
+/* Quando for a versão mobile eu ativo essa e escondo a que não tem imag */
+.bannerProdutoMobile {
+    display: none;
+}
+
 .bannerProduto{
     display: flex;
     justify-content: end;
@@ -5,10 +10,11 @@
     padding: 5rem;
     background-color: red;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-image: url("/assets/img/mini-bag-vani-paisagem.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: end;
 }
 
@@ -26,4 +32,45 @@
 .infomacoesBannerProduto > div {
     display: flex;
     justify-content: end;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    
+    .bannerProduto{
+        display: none;
+    }
+
+    .bannerProdutoMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 1rem;
+        width: 100vw;
+        border: solid;
+    }
+
+    .infomacoesBannerProdutoMobile {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+
+    }
+
+    .infomacoesBannerProdutoMobile > h2{
+        font-size: 3rem;
+        color:var(--corPrincipal);
+    }
+    
+    .infomacoesBannerProdutoMobile > p{
+        font-size: 1rem;
+        color:var(--corEscura);
+        font-family: var(--fontSecundaria);
+    }
+    .bannerProdutoMobile > img {
+        width: 95%;
+        border-radius: 20rem;
+    }
+
 }

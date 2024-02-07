@@ -44,3 +44,14 @@
     font-family: var(--fontSecundaria);
     background-color: #2b2d47;
 }
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    
+    .dadosDaEmpresa{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+
+}
