@@ -46,7 +46,7 @@
         align-items: center;
         padding: 3rem 1rem;
         width: 100vw;
-        border: solid;
+        background-color: var(--corTercearia);
     }
 
     .infomacoesBannerProdutoMobile {
