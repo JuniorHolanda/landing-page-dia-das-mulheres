@@ -1,0 +1,72 @@
+.chamada {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    gap: 5rem;
+    grid-template-areas:
+    "titulo imagem"
+    "midiasSociais midiasSociais";
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--corSecondaria);
+
+}
+
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    text-align: end;
+    grid-column: 1/2;
+}
+
+.titulo h1 {
+    display: flex;
+    font-family: var(--fontDestaque);
+    color: var(--corPrincipal);
+    font-size: 7rem;
+    line-height: 0.8;
+}
+
+.titulo h2 {
+    color: var(--corEscura);
+    font-family: var(--fontSecundaria);
+
+}
+
+.imagem {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    grid-column: 2/3;
+    position: relative;
+    flex-wrap: nowrap;
+    
+}
+
+/* começo da sobreposição de imagem*/
+
+.imagemDeFundo{
+    width: 38rem;
+    height: auto;
+}
+
+.imagemDasMaos{
+    position: absolute;
+    width: 20rem;
+    bottom: 0;
+
+}
+/* Fim da sobreposição de imagem*/
+
+.midiasSociais {
+    display: flex;
+    grid-column: 1/3;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 2rem;
+    color: var(--corPrincipal);
+}

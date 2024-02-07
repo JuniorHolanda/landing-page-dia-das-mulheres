@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dia internacional das mulheres</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/trioProdutos.css">
+    <link rel="stylesheet" href="assets/css/chamada.css">
+    <link rel="stylesheet" href="assets/css/produtoGrande.css">
+    <link rel="stylesheet" href="assets/css/bannerProduto.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <section class="container"> 
+        <!-- Começo o banner de chamada -->
         <div class="chamada">
-            <div>
+
+            <div class="titulo">
                 <h2>
                     8 DE MARÇO<br>
                     DIA INTERNACIONAL<br>
@@ -25,83 +32,119 @@
                 </h1>
             </div>
             
-            <div> <!--Aqui vai a imagem principal com a imagem da mão sobre o background-->
-                <img src="assets/img/dia-das-maes-2024-bg.jpg" alt="A parede tem um fundo com formas geométricas losangulares.">
-                <img src="assets/img/mao-segurando-flores.png" alt="mãos femininas segurando um buquê de flores">
+            <div class="imagem"> <!--Aqui vai a imagem principal com a imagem da mão sobre o background-->
+                <img class="imagemDeFundo" src="assets/img/dia-das-maes-2024-bg.jpg" alt="A parede tem um fundo com formas geométricas losangulares.">
+                
+                <img class="imagemDasMaos" src="assets/img/mao-segurando-flores.png" alt="mãos femininas segurando um buquê de flores">
             </div>
 
-            <div>
+            <div class="midiasSociais">
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-solid fa-globe"></i>
                 <i class="fa-brands fa-whatsapp"></i>
             </div>
+            
         </div>
 
-        <div class="TrioProdutos">
-            <div>
+        <!------------------ Começo o bloco de 3 produtos ------------------->
+        <div class="trioProdutos">
+            <div class="informacoesTrioProdutos">
                 <img src="assets/img/porta-niquel.jpg" alt="Uma pequena necessaire para guardar moedas">
-                <h2>Porta Absolvente</h2>
+                <h2>Porta <br>Absolvente</h2>
                 <p>00 Larg | 00 Alt | 00 Comp</p>
-                <a href="#">Orçamento</a>
-                <a href="#">Saber Mais</a>
+                <div class="botoes">
+                    <a href="#">Orçamento</a>
+                    <a href="#">Saber Mais</a>
+                </div>
             </div>
-            <div>
+
+            <div class="informacoesTrioProdutos">
                 <img src="assets/img/porta-absolvente.jpg" alt="Um pequeno porta absolvente">
-                <h2>Porta Absolvente</h2>
+                <h2>Porta <br>Absolvente</h2>
                 <p>00 Larg | 00 Alt | 00 Comp</p>
-                <a href="#">Orçamento</a>
-                <a href="#">Saber Mais</a>
+                <div class="botoes">
+                    <a href="#">Orçamento</a>
+                    <a href="#">Saber Mais</a>
+                </div>
             </div>
-            <div>
+
+            <div class="informacoesTrioProdutos">
                 <img src="assets/img/carteira-slim.jpg" alt="Uma pequna carteira rodeada de flores">
-                <h2>Porta Absolvente</h2>
+                <h2>Porta <br>Absolvente</h2>
                 <p>00 Larg | 00 Alt | 00 Comp</p>
-                <a href="#">Orçamento</a>
-                <a href="#">Saber Mais</a>
+                <div class="botoes">
+                    <a href="#">Orçamento</a>
+                    <a href="#">Saber Mais</a>
+                </div>
             </div>
         </div>
+        <!-------------------------- Início do produto grande ---------------->
         <div class="produtoGrande">
-            <div>
+            <div class="InformacoesprodutoGrande">
                 <h2>Porta Absolvente</h2>
                 <p>00 Larg | 00 Alt | 00 Comp</p>
-                <a href="#">Orçamento</a>
-                <a href="#">Saber Mais</a>
+                <div class="botoes">
+                    <a href="#">Orçamento</a>
+                    <a href="#">Saber Mais</a>
+                </div>
             </div>
-            <div>
+
+            <div class="caixaImgProdutoGrande">
                 <img src="assets/img/necessaire-vani.jpg" alt="Uma necessaire rodeada de flores">
             </div>
         </div>
+
+         <!-------------------------- Início do banner ---------------->
         
-        <div class="bannerProduto">
-            <div>
+        <div class="bannerProduto"> <!--A imagem nesse aqui é usando como Background via css-->
+            <div class="infomacoesBannerProduto">
                 <h2>Porta Absolvente</h2>
                 <p>00 Larg | 00 Alt | 00 Comp</p>
-                <a href="#">Orçamento</a>
-                <a href="#">Saber Mais</a>
+                <div class="botoes">
+                    <a href="#">Orçamento</a>
+                    <a href="#">Saber Mais</a>
+                </div>
             </div>
         </div>
-        <div class="rodapé">
-            <img src="#logo" alt="Logo da empresa Miriam Momesso">
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
+
+         <!-------------------------- Início do footer ---------------->
+        <footer class="rodape">
+            <img src="assets/img/Logo-mm-rodape.png" alt="Logo da empresa Miriam Momesso">
+            <div class="dadosDaEmpresa">
+                
+                <div class="blocoDeInformacaoDadosEmpresa">
+                    <h2>Fale conosco:</h2>
+                    <ul>
+            
+                        <li>11 26313152</li>
+                        <li>11 38070539</li>
+                        <li>11 38070539</li>
+                    </ul>
+                </div>
+                
+                <div class="blocoDeInformacaoDadosEmpresa">
+                    <h2>Atendimento:</h2>
+                    <ul>
+                        <li>Seg - 08:00 as 18:00</li>
+                        <li>Ter - 08:00 as 18:00</li>
+                        <li>Qua - 08:00 as 18:00</li>
+                        <li>Qui - 08:00 as 18:00</li>
+                        <li>Sex - 08:00 as 17:00</li>
+                    </ul>
+                </div>
+        
+                <div class="blocoDeInformacaoDadosEmpresa">
+                    <h2>Nossos canais:</h2>
+                    <ul>
+                        <li>www.miriammomesso.com.br</li>
+                        <li>@momessooficial</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="assinatura"></div>
+            <div class="assinatura">
+                <p>desenvolvida por <strong>Júnior Holanda</strong></p>
+            </div>
+        </footer>
     </section>
 </body>
 </html>

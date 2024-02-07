@@ -1,0 +1,46 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--corPrincipal);
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 0rem 2rem;
+    gap: 5rem;
+}
+
+.dadosDaEmpresa{
+    display: flex;
+    gap: 5rem;
+}
+
+.blocoDeInformacaoDadosEmpresa{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.blocoDeInformacaoDadosEmpresa > h2 {
+    font-size: 1.2rem;
+    color:var(--corSecondaria);
+    font-family: var(--fontSecundaria);
+}
+
+.blocoDeInformacaoDadosEmpresa > ul {
+    font-size: 0.8rem;
+    color:var(--corTercearia);
+    font-family: var(--fontSecundaria);
+}
+
+.assinatura {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color:var(--corTercearia);
+    font-family: var(--fontSecundaria);
+    background-color: #2b2d47;
+}

@@ -1,0 +1,29 @@
+.bannerProduto{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5rem;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/img/mini-bag-vani-paisagem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: end;
+}
+
+.infomacoesBannerProduto > h2 {
+    font-size: 3rem;
+    color:var(--corPrincipal);
+}
+
+.infomacoesBannerProduto > p {
+    font-size: 1rem;
+    color:var(--corEscura);
+    font-family: var(--fontSecundaria);
+}
+
+.infomacoesBannerProduto > div {
+    display: flex;
+    justify-content: end;
+}

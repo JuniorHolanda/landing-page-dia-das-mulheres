@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400&family=Noto+Serif+Display:ital,wght@1,700&display=swap');
+
+
+:root {
+    --fontDestaque: 'Noto Serif Display', serif;
+    --fontSecundaria: 'Farro', sans-serif;
+    
+    --corPrincipal: #4F517D;
+    --corSecondaria: #A9E4EF;
+    --corTercearia: #F1DEDE;
+    --corQuaternária: #BBACC1;
+    --corQuinaria: #BBACC1;
+    --corEscura: #343434;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    background-color: rgb(207, 207, 207);
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+.botoes {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+.botoes > a {
+    background-color: var(--corPrincipal);
+    color: #ffffff;
+    padding: 7px 15px;
+    border-radius: 1rem;
+    font-family: var(--fontSecundaria);
+}

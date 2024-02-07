@@ -1,0 +1,43 @@
+.produtoGrande{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--corQuinaria);
+}
+
+.InformacoesprodutoGrande{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 5rem;
+}
+
+.InformacoesprodutoGrande > h2 {
+    font-size: 3rem;
+    color:var(--corPrincipal);
+}
+
+.InformacoesprodutoGrande > p {
+    font-size: 1rem;
+    color:var(--corEscura);
+    font-family: var(--fontSecundaria);
+}
+
+
+.caixaImgProdutoGrande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.caixaImgProdutoGrande > img {
+ width: 100%;
+}
+
+
