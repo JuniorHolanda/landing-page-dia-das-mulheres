@@ -8,7 +8,7 @@
     --corPrincipal: #4F517D;
     --corSecondaria: #A9E4EF;
     --corTercearia: #F1DEDE;
-    --corQuaternária: #BBACC1;
+    --corQuaternaria: #BBACC1;
     --corQuinaria: #BBACC1;
     --corEscura: #343434;
 }
@@ -23,7 +23,7 @@
 }
 
 
-body, html {
+body {
     background-color: rgb(207, 207, 207);
     width: 100vw;
 }
@@ -34,18 +34,5 @@ body, html {
     background-color: aliceblue;
     align-items: center;
     justify-content: center;
-}
-.botoes {
-    display: flex;
-    gap: 1.5rem;
-    padding: 1rem 0rem;
-}
-
-.botoes > a {
-    background-color: var(--corPrincipal);
-    color: #ffffff;
-    padding: 7px 15px;
-    border-radius: 1rem;
-    font-family: var(--fontSecundaria);
 }
 

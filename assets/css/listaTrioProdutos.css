@@ -1,0 +1,32 @@
+.listaTrioProdutos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    background-color: var(--corTercearia) ;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fotoCardTrioProdutos > img {
+    width: 20vw;
+    border-radius: 30rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+    .listaTrioProdutos{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        height: 100%;
+    }
+
+    .fotoCardTrioProdutos > img {
+        width: 80vw;
+        border-radius: 30rem;
+    }
+
+}
+
