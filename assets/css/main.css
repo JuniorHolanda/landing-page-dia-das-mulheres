@@ -36,3 +36,36 @@ body {
     justify-content: center;
 }
 
+/* Inicio do botão de chamada para o site */
+
+.chamadaSite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--corSecondaria); 
+}
+
+.chamadaSite > h2{
+    font: var(--corPrincipal);
+    color: #4F517D;
+    font-size: 2rem;
+}
+
+.chamadaSite > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corPrincipal);
+    width: 50vw;
+    height: 4vh;
+    border-radius: 3rem;
+    color: var(--corTercearia);
+    font-family: var(--fontSecundaria);
+
+}
+

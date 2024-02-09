@@ -17,7 +17,7 @@
 .blocoDeInformacaoDadosEmpresa{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .blocoDeInformacaoDadosEmpresa > h2 {
